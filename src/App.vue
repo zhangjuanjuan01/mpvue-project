@@ -11,7 +11,7 @@ export default {
 }
 </script>
 <style>
-@@import "lib/weui.css";
+@import './lib/weui.wxss';
 .container {
   height: 100%;
   display: flex;

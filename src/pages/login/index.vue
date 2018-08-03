@@ -30,8 +30,8 @@
     </section>
 </template>
 <script>
-    import request from '../../../comm/request';
-    import msgbox from '../../../comm/msgbox'
+    import request from '../../comm/request';
+    import msgbox from '../../comm/msgbox'
     new Vue({
       data:{
         btnText:'获取验证码'

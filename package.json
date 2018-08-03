@@ -5,8 +5,8 @@
   "author": "zhangjuanjuan01 <zhangjuanjuan@nongfadai.com>",
   "private": true,
   "scripts": {
-    "dev": "set process.env.NODE_ENV=MiniApp node build/dev-server.js",
-    "h5": "set process.env.NODE_ENV=H5 webpack-dev-server --progress --config build/webpack.prod.conf.js",
+    "dev": "set process.env.NODE_ENV=MiniApp && node build/dev-server.js",
+    "h5": "set process.env.NODE_ENV=H5 && node buildH5/webpack.prod.conf.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src"
